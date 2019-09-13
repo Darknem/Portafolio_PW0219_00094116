@@ -1,0 +1,86 @@
+body{
+    background:url(https://us.123rf.com/450wm/kurashov/kurashov1603/kurashov160300057/53549584-guitarra-ac%C3%BAstica-sobre-un-fondo-negro-con-espacio-de-copia-.jpg?ver=6)
+}
+
+.contenedor{
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+    margin: 10px;
+}
+
+.boton{
+    color: white;
+    margin: 10px; 
+    padding: 10px 15px;
+    border-radius: 10px; 
+}
+
+.boton:hover{
+    background: rgb(103, 103, 105);
+}
+
+.uno{
+    background: rgb(102, 60, 192);
+}
+
+.dos{
+    background: brown;
+}
+
+.tres{
+    background: purple;
+}
+
+.titulo{
+    display: flex;
+    height: 100%;
+    margin: 120px 40% 10px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    opacity: 0.7;
+    justify-content: center;
+    align-content: center;
+    font-size: 50px;
+    background: aliceblue; 
+}
+
+hr{
+    color: white;
+    width: 35%;
+    
+}
+
+.imagenes{
+    margin: 0% 25%;
+    padding: 0px, 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+a>img{
+    width: 80px;
+    border-radius: 50%;
+    border: 1px solid white;
+   
+
+}
+
+.contenedorpie{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    margin: 70px 10px;  
+}
+
+.izquierdo{
+    background: purple;
+    opacity: 0.4;
+}
+
+.derecho{
+background: purple;
+opacity: 0.4;
+}

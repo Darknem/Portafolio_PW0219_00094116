@@ -1,0 +1,24 @@
+@import "components/variables";
+@import "components/mixin";
+
+section {
+  background-color: $bg_color;
+  border: $border_std;
+  width: 100%;
+  height: 100vh;
+
+  @inurl(https://us.123rf.com/450wm/kurashov/kurashov1603/kurashov160300057/53549584-guitarra-ac%C3%BAstica-sobre-un-fondo-negro-con-espacio-de-copia-.jpg?ver=6), center, center);
+
+  p {}
+    color: $font_color;
+    @include space_std(8px);
+  }
+
+  &:hover {
+    background-color: $bg2_color;
+
+    p {
+      background-color: $border_color;
+    }
+  }
+}
