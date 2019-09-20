@@ -28,7 +28,7 @@ body {
 }
 
 /* Se agregó un hover al pasar el cursor por el menú */
-.header nav ul.menu a:hover{
+.header>nav ul.menu a:hover{
     color: #F74442;
 }
 
@@ -108,6 +108,11 @@ p{
 .social-links i.fab{
     font-size: 5rem;
     padding: 0rem 1.5rem;
+}
+
+/* Se agregó un hover al pasar el cursor por los iconos de Github y Twitter */
+.social-links i.fab:hover{
+    color:red;
 }
 
 /* Modificando tamaño y color del botón "flecha" */
@@ -283,6 +288,10 @@ footer .social-links {
     
 }
 
+.menu li:last-child a{
+    color: red;
+}
+
 /* Pesonalizando estilo para tablets*/
 @media only screen and (min-width: 768px) {
 
@@ -303,12 +312,12 @@ footer .social-links {
     }
 
     .about .contact-form{
-        width: 500px;
+        width: 450px;
     }
 
     .about .contact-form input[type="submit"]{
         width: 200px;
-    }
+    }  
 
     .post ul {
         list-style: none;
