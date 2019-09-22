@@ -301,6 +301,7 @@ footer .social-links {
 /* Pesonalizando estilo para tablets*/
 @media only screen and (min-width: 768px) {
 
+    /* Se aplicó grid a la parte de "About" */
     .about>.container{
         display: grid;
         grid-template-columns: repeat(2, minmax(502px, 1fr));
@@ -311,16 +312,19 @@ footer .social-links {
         grid-area: span 1 / span 2;
     }
     
+    /* Se aumentó el tamaño de la fuente */
     .about .contact, .about .bio-info{
         padding: 2em;
         align-items: center;
-        font-size: 0.8rem;
+        font-size: 1.0rem;
     }
-
+    
+    /* Se arregló el tamaño del formulario */
     .about .contact-form{
         width: 450px;
     }
-
+    
+    /* Se arregló tamaño de botón contactar */
     .about .contact-form input[type="submit"]{
         width: 200px;
     } 
