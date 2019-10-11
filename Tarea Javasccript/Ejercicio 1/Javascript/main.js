@@ -5,10 +5,10 @@ function desplegarMenu() {
     const esconder = document.getElementById("menu");
     esconder.classList.toggle("hide-mobile");
     
-    const menu = document.getElementsByClassName('fas fa-bars')[0];
+    const menu = document.querySelector('.options .fa-bars')[0];
     menu.classList.toggle("hide-mobile");
     
-    const cerrar = document.getElementsByClassName("fas fa-times")[0];
+    const cerrar = document.querySelector(".options .fa-times")[0];
     cerrar.classList.toggle("hide-mobile");
 }
 
