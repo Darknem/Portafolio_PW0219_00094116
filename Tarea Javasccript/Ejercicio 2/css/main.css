@@ -1,0 +1,60 @@
+
+
+html{
+    background-color: white;
+}
+
+main{
+    
+    font-size: 1em;
+    padding: 2rem;
+}
+
+main form, main h2{
+    text-align: left;
+}
+
+input[type="text"]{
+    font-size: 0.9rem;
+    text-align: left;
+    padding: 1em 15em;
+}
+
+.btn{
+    border: 1px solid transparent;
+    border-radius: 0.3em;
+    box-shadow: none;
+    padding: 0.2em;
+    opacity: 0.8;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+.registro{
+    border: 1.5px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table.registro th{
+    border: 1.5px solid black;
+}
+
+.registro-event{
+    margin: 10px 15px;
+    padding: 10px 15px;
+    width: 80%;
+    border: 1px solid black;
+}
+
+.registro-accedent{
+    margin: 10px 15px;
+    padding: 10px 15px;
+    width: 20%;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.dia_insertado{
+    font-size: 0.8rem;
+}
