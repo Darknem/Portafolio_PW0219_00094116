@@ -1,4 +1,5 @@
-/* CODIGO FINAL */
+
+
 let semana = document.querySelectorAll(".semana");
 let flag = false;
 let seleccion;
