@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Clínica universitaria</title>
+</head>
+<body>
+  
+<header class="header">
+ 
+ <nav>
+     <div class="topnav">
+        <a href="#home"><img src="images/logo2.png" alt="logo" class="logo"></a>
+        <a class="active" href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+          <div class="login-container">
+            <form action="/action_page.php">
+              <input type="text" placeholder="Username" name="username">
+              <input type="text" placeholder="Password" name="psw">
+              <button type="signin">Sign in</button>
+              <button type="submit">Login</button>
+            </form>
+          </div>
+     </div>
+ </nav>
+</header> 
+
+<section>
+    <!-- Slideshow container -->
+<div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <img src="images/medicos.jpg" style="width:100%" alt="medicos">
+          <div class="text">Caption Text</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <img src="images/medicos2.jpg" style="width:100%">
+          <div class="text">Caption Two</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <img src="images/medicos3.jpg" style="width:100%">
+          <div class="text">Caption Three</div>
+        </div>
+      
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+</section>
+
+<section>
+        <h2 class="lema">¿Quiénes somos?</h2>
+
+        <div class="row">
+                <div class="column">
+                    <img src="" alt="">
+                  <h2>Column 1</h2>
+                  <p>Some text..</p>
+                </div>
+                <div class="column" >
+                  <h2>Column 2</h2>
+                  <p>Some text..</p>
+                </div>
+                <div class="column" >
+                  <h2>Column 3</h2>
+                  <p>Some text..</p>
+                </div>
+              </div>
+</section>
+      
+
+</body>
+<script src="javascript/main.js"></script>
+</html>
