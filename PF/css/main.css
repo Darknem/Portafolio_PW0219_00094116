@@ -173,29 +173,80 @@
 }
 
 /*---------------------------------------------------------------------------------------------------------*/
-.lema{
-display: flex;
-justify-content: center;
-padding: 10px;
+
+.post {
+  padding: 1em;
+  margin-bottom: -2px;
+}
+.post h2 {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.125em;
+  margin-top: 4em;
 }
 
-.column {
-    float: left;
-    background-color: rgb(11, 197, 197);
-    width: 30%;
-    margin: 20px;
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+.post ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
 
-  /* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-    }
-  }
+.post ul li {
+  min-height: 300px;
+  max-width: 350px;
+  margin: 2rem auto;
+}
+
+.post ul li article {
+  overflow: hidden;
+  border-radius: 10px;
+  background-color: rgb(11, 197, 197);
+  text-align: left;
+  padding-bottom: 2em;
+}
+
+.post article img{
+  height: 150px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.post article h3 {
+  color: white;
+  margin-top: 2em;
+  padding: 0em 1rem;
+  font-size: 1.2em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.post article p {
+  color:white;
+  font-size: 0.75em;
+  padding: 1rem;
+  line-height: 25px;
+}
+
+/*---------------------------------------------------------------------------------------------------------*/
+footer{
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  background-color: #64a3f7;
+  padding: 10px;
+  margin-top: 30px;
+  margin-bottom: -20px;
+  color: white;
+}
+
+footer .logo2{
+  width: 50px;
+}
+
+
+
+
+
