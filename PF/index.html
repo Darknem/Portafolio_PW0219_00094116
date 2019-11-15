@@ -10,56 +10,75 @@
     <title>Clínica universitaria</title>
 </head>
 <body>
-  
-<header class="header">
  
+  <!--El header contiene barra de navegación, login rápido y botón para registrarse-->
+<header class="header">
  <nav>
      <div class="topnav">
-        <a href="#home"><img src="images/logo2.png" alt="logo" class="logo"></a>
-        <a class="active" href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-        
+      <a href="#home" class="actives"><img src="images/logo2.png" alt="logo" class="logo"></a>
+      <!--Esto se tiene que esconder con javascript-->
+       <div id="myLinks">
+        <a href="#home"><i class="fa fa-fw fa-home"></i>Home</a>
+        <a href="#about"><i class="fa fa-fw fa-question"></i>About</a>
+        <a href="#services"><i class="fa fa-fw fa-tag"></i>Services</a>
+        <a href="#contact"><i class="fa fa-fw fa-envelope"></i>Contact</a>
+
           <div class="login-container">
             <form action="/action_page.php">
               <input type="text" placeholder="Username" name="username">
               <input type="text" placeholder="Password" name="psw">
-              <button type="submit" >Login</button>
-              <button type="submit">Sign in</button>
+              <button type="submit">Sign up</button>
+              <button type="submit" ><i class="fa fa-fw fa-user"></i>Login</button>
             </form>
+          </div>
           <!--/<a href="form.html"><button>Sign up</button> </a> -->
           </div>
+
+          <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
      </div>
  </nav>
 </header> 
 
+
 <section>
-    <!-- Slideshow container -->
+    <!-- Contenedor del carrusel -->
 <div class="slideshow-container">
 
-        <!-- Full-width images with number and caption text -->
+        <!-- Imágenes y textos que tendrán encima de ellas-->
         <div class="mySlides fade">
           <img src="images/medicos.jpg" style="width:100%" alt="medicos">
-          <div class="text">Caption Text</div>
+          <div class="content">
+            <h1>Servicios profesionales</h1>
+            <p>Contamos con personal altamente calificado y con muchos años de experiencia.</p>
+          </div>
         </div>
       
         <div class="mySlides fade">
           <img src="images/medicos2.jpg" style="width:100%">
-          <div class="text">Caption Two</div>
+          <div class="content">
+            <h1>Resultados confiables</h1>
+            <p>Equipo médico de última generación para resultados más precisos y seguros.</p>
+          </div>
         </div>
       
         <div class="mySlides fade">
           <img src="images/medicos3.jpg" style="width:100%">
-          <div class="text">Caption Three</div>
+          <div class="content">
+            <h1>Servicio 24/7</h1>
+            <p>Atención médica 24 horas y 7 días a la semana.</p>
+          </div>
         </div>
       
-        <!-- Next and previous buttons -->
+        <!-- Botones "siguiente" y "anterior" -->
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
       </div>
       <br>
       
-      <!-- The dots/circles -->
+      <!-- Círculos -->
       <div style="text-align:center">
         <span class="dot" onclick="currentSlide(1)"></span>
         <span class="dot" onclick="currentSlide(2)"></span>
@@ -67,7 +86,9 @@
       </div>
 </section>
 
-<section class="green-area">
+
+<!--Área de artículos-->
+<section class="article-area">
   <div class="container post">
       <h2>Sobre nosotros</h2>
       <ul>
