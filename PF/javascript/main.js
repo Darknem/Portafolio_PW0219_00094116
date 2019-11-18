@@ -1,12 +1,17 @@
-/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
-function myFunction() {
-  var x = document.getElementById("myLinks");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
+//Función para esconder el menú
+function desplegarMenu() {
+  const esconder = document.getElementById("menu");
+  esconder.classList.toggle("hide-mobile");
+  
+  const menu = document.querySelector('.options .fa-bars')[0];
+  menu.classList.toggle("hide-mobile");
+  
+  const cerrar = document.querySelector(".options .fa-times")[0];
+  cerrar.classList.toggle("hide-mobile");
 }
+let a = document.querySelector(".options");
+a.addEventListener('click', desplegarMenu, false);
+
 
 
 /*Función para carrusel*/
