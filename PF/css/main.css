@@ -45,17 +45,6 @@
   float: right;
 }
 
-.topnav a .fa-plus{
-  padding: 0%;
-}
-.topnav input[type=text] {
-  padding: 6px;
-  margin-top: 8px;
-  font-size: 17px;
-  border: none;
-  width: 150px; 
-}
-
 .topnav .login-container button {
   float: right;
   padding: 5px;
@@ -66,9 +55,7 @@
   cursor: pointer;
 }
 
-.topnav .login-container button:hover {
-  background: #ccc;
-}
+
 
 
 /*----------------------------------------------------------------------------------------------------------*/
