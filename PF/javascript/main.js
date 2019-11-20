@@ -2,11 +2,11 @@
 function desplegarMenu() {
   const esconder = document.getElementById("menu");
   esconder.classList.toggle("hide-mobile");
-  
-  const menu = document.querySelector('.options .fa-bars')[0];
+  console.log("as")
+  const menu = document.querySelector('.options .fa-bars');
   menu.classList.toggle("hide-mobile");
   
-  const cerrar = document.querySelector(".options .fa-times")[0];
+  const cerrar = document.querySelector(".options .fa-times");
   cerrar.classList.toggle("hide-mobile");
 }
 let a = document.querySelector(".options");
